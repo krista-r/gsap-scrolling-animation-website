@@ -1,0 +1,51 @@
+html,body{
+	margin:0;
+}
+
+*{
+	box-sizing:border-box;
+}
+
+
+body{
+	background-color: black;
+	color: white;
+}
+
+/*::-webkit-scrollbar {
+    // display: none;
+}*/
+
+.landing-view{
+	margin: auto 0;
+	max-width: 100%;
+}
+
+.text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 98vh;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.slide-wrapper{
+	position:relative;
+	overflow: hidden;
+	width: 100vw;
+	height:100vh;
+}
+
+#currentNumber{
+	position: absolute;
+	top: 5rem;
+	left: 5rem;
+}
+
+span{
+	position: absolute;
+	top: 1rem;
+}
